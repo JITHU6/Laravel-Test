@@ -19,4 +19,3 @@ Route::get('/login', 'StudentController@Login');
 Route::get('/Index', 'StudentController@Index');
 Route::get('/register', 'StudentController@Registration');
 Route::get('/menu', 'StudentController@Menu');
-Route::resource('test','TestsController');

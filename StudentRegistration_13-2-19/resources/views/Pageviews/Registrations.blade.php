@@ -16,7 +16,7 @@ body {
 
 /* Add padding to containers */
 .container {
-  padding: 70px 300px;
+  padding: 16px;
   background-color: white;
 }
 
@@ -69,7 +69,7 @@ a {
 }
 </style>
 </head>
-<body >
+<body>
 
 <form action="/action_page.php">
   <div class="container">
