@@ -1,6 +1,3 @@
-
-@extends('layout.menu')
-    @section('content')
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
     <script src="main.js"></script>
-    
 </head>
 <body>
     <table border=1>
@@ -26,15 +22,8 @@
         <td>{{$a->id}}</td>
         <td>{{$a->title}}</td>
         <td>{{$a->body}}</td>
-        <td><a href="{{ route('test.edit',$a->id)}}" >EDIT</a>
-        <td> <form method="post" action="{{route('test.destroy',$a->id)}}">
-        @csrf 
-        @method('DELETE')
-        <Button type="submit" name="delete" value="delete">DELETE<Button>
-        </form></td>
     </tr>
     @endforeach
     </table>
 </body>
 </html>
-@endsection

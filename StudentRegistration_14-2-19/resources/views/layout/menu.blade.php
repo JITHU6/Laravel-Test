@@ -37,8 +37,7 @@ li a:hover:not(.active) {
   <li><a class="active" href="/Index">Home</a></li>
   <li><a href="/login">Login</a></li>
   <li><a href="/register">Register</a></li>
-  <li><a href="/test/create">add details</a></li>
-  <li><a href="/test">details reg</a></li>
+ 
 </ul>
 
 </body>

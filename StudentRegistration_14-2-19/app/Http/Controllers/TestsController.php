@@ -63,9 +63,7 @@ class TestsController extends Controller
      */
     public function edit($id)
     {
-       $val=test::find($id);
-       //return $val;
-       return view('Data.edit',compact('val'));
+        //
     }
 
     /**
@@ -77,11 +75,7 @@ class TestsController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $res= test::find($id);
-        $res->title=$request->get('title');
-        $res->body=$request->get('body');
-        $res->save();
-        return redirect('\test');
+        //
     }
 
     /**
@@ -92,8 +86,6 @@ class TestsController extends Controller
      */
     public function destroy($id)
     {
-        $val=test::find($id);
-        $val->delete();
-       return redirect('\test');
+        //
     }
 }
